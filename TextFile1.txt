@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html--->
 <html>
 <head>
 <script src="/cdn-cgi/apps/head/FDvMvPFwF7UhXZFBqdl7RrbEJxg.js"></script><link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
