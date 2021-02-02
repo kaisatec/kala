@@ -1,0 +1,5 @@
+{
+   v:"2021020101",
+   u:"https://alohaboost.github.com/a",
+   a:10
+}
