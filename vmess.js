@@ -547,6 +547,7 @@ function formatLinkInfo(){
 async function writeLinkInfo(){
 
 
+	/*
 	for(var i=0;i<aFileArray.length;i++){
 		
 	}
@@ -554,10 +555,12 @@ async function writeLinkInfo(){
 	for(var i=0;i<bFileArray.length;i++){
 		
 	}
+	*/
 
 	if(aFileArray>0){
 
 		await fs.writeFile(aFileString, aString, function (err) { });
+		console.log('write file:'+aFileString+'-'+aFileArray.length);
 		for(var i=0;i<aFileArray.length;i++){
 			if(i<=10){
 				await fs.writeFile(aFileArray[i], encodeString( aStringArray[i]), function (err) {
@@ -569,7 +572,7 @@ async function writeLinkInfo(){
 	 
 	if(bFileArray>0){
 		await fs.writeFile(bFileString, bString, function (err) { });
-
+		console.log('write file:'+bFileString+'-'+bFileArray.length);
 		for(var i=0;i<bFileArray.length;i++){
 
 			if(i<=10){
