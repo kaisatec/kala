@@ -1,1 +1,1 @@
-{v:"2021020101",m:{"https://alohaboost.herokuapp.com/","https://aloha1boost.herokuapp.com/"},u:"https://alohaboost.github.com/b",a:1}
+{v:"2021020101",m:{"https://alohaboost.herokuapp.com/","https://aloha1boost.herokuapp.com/"},u:"https://alohaboost.github.com/b",a:0}
