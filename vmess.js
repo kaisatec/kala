@@ -560,7 +560,8 @@ async function writeLinkInfo(){
 	console.log('write file:'+aFileString+'-'+aFileArray.length);
 	console.log('write file:'+bFileString+'-'+bFileArray.length);
 
-	if(aFileArray>0){
+	if(aFileArray.length>0){
+
 
 		await fs.writeFile(aFileString, aString, function (err) { });
 		 
@@ -576,7 +577,7 @@ async function writeLinkInfo(){
 	}
 
 	 
-	if(bFileArray>0){
+	if(bFileArray.length>0){
 		await fs.writeFile(bFileString, bString, function (err) { });
 		 
 		for(var i=0;i<bFileArray.length;i++){
